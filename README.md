@@ -31,17 +31,17 @@ Optimizer: Adam
 
 mnist-digit-classifier/
 │
-├── src/                  # Training & inference code
+├── src/
 │   ├── train.py
 │   └── inference.py
 │
-├── models/              # Saved model weights
+├── models/
 │   └── mnist_model.pth
 │
-├── outputs/             # Graphs & results
+├── outputs/
 │   └── training_results.png
 │
-├── data/                # MNIST dataset (auto-downloaded)
+├── data/
 │
 └── README.md
 
