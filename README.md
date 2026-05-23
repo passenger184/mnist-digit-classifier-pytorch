@@ -29,21 +29,21 @@ Optimizer: Adam
 
 ## 📁 Project Structure
 
-
 mnist-digit-classifier/
 │
-├── src/
-│ ├── train.py
-│ └── inference.py
+├── src/                  # Training & inference code
+│   ├── train.py
+│   └── inference.py
 │
-├── models/
-│ └── mnist_model.pth
+├── models/              # Saved model weights
+│   └── mnist_model.pth
 │
-├── outputs/
-│ └── training_results.png
+├── outputs/             # Graphs & results
+│   └── training_results.png
+│
+├── data/                # MNIST dataset (auto-downloaded)
 │
 └── README.md
-
 
 ---
 
